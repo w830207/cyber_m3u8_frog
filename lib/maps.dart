@@ -7,12 +7,12 @@ enum TvType {
   sport,
 }
 
-const tvTypeList = [
-  'normal',
-  'news',
-  'movie',
-  'sport',
-];
+const tvTypeMap = {
+  'normal': '綜合',
+  'news': '新聞',
+  'movie': '電影',
+  'sport': '體育',
+};
 
 const Map<TvType, Map> tvMap = {
   TvType.normal: normalMap,
